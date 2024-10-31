@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Restaurant Ordering System</title>
+
+    <link rel="stylesheet" href="Resturant.css" />
+  </head>
+
+  <body>
+    <h1>Restaurant Ordering System</h1>
+
+    <div class="menu">
+      <h2>Menu</h2>
+
+      <ul id="menu-list"></ul>
+    </div>
+
+    <div class="order">
+      <h2>Order</h2>
+
+      <form id="order-form">
+        <label for="name">Name:</label>
+
+        <input type="text" id="name" required />
+
+        <label for="menu-item">Select Menu Item:</label>
+
+        <select id="menu-item"></select>
+
+        <label for="quantity">Quantity:</label>
+
+        <input type="number" id="quantity" required />
+
+        <button id="place-order">Place Order</button>
+      </form>
+    </div>
+
+    <div class="orders">
+      <h2>Orders</h2>
+
+      <ul id="orders-list"></ul>
+    </div>
+
+    <script src="System.js"></script>
+  </body>
+</html>
